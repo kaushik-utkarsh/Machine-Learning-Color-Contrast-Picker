@@ -1,0 +1,46 @@
+Let's review the fields that contain common data (i.e., fields where the values are the same in both records):
+
+_id: Different IDs, so not common data.
+
+embedding_text: While the content is similar, the specific details differ, so not common data.
+
+employee_id: Different employee IDs.
+
+first_name: Both records have the same first name ("John").
+
+last_name: Both records have the same last name ("Doe").
+
+date_of_birth: Both records have the same date of birth ("1990-01-01").
+
+address: Same address (Street: "123 Main St", City: "Anytown", State: "CA", Postal Code: "12345", Country: "USA").
+
+contact_details: The email is the same ("johndoe@example.com"), but the phone numbers differ.
+
+job_details: The department ("Engineering") is the same, but the salary and job title differ.
+
+work_location: The nearest office is different (Anytown HQ vs. San Francisco).
+
+skills: Both records list the same skills: Java, Python.
+
+performance_reviews: The second record has a performance review, while the first one does not, so they don't match.
+
+benefits: The paid time off (20) is the same, but the health insurance and retirement plan benefits differ.
+
+emergency_contact: The emergency contact name is the same ("Jane Doe"), but the relationship and phone number differ.
+
+notes: The notes have similar content but are phrased differently.
+
+Fields with common data:
+first_name ("John")
+
+last_name ("Doe")
+
+date_of_birth ("1990-01-01")
+
+address (Street: "123 Main St", City: "Anytown", State: "CA", Postal Code: "12345", Country: "USA")
+
+contact_details.email ("johndoe@example.com")
+
+skills ("Java", "Python")
+
+benefits.paid_time_off (20)
